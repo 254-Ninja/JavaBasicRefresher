@@ -17,5 +17,7 @@ public class Reversing_a_string_in_Java {
 
         for (int i = chars.length - 1; i >= 0; i--)
             out .append(chars[i]);
+
+        return out .toString();
     }
 }
