@@ -13,6 +13,8 @@ public class Fibonacci_series {
             a = b;
             b = c;
             c = a+b;
+
+            System.out.println(a + "");
         }
 
     }
