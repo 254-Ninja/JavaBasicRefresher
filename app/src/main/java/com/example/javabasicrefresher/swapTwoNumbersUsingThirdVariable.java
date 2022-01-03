@@ -11,7 +11,9 @@ public class swapTwoNumbersUsingThirdVariable {
         x = in.nextInt();
         y = in.nextInt();
         System.out.println("Before Swapping" + x + y);
-
-
+        temp = x;
+        x = y;
+        y = temp;
+        System.out.println("After swapping" + x + y);
     }
 }
