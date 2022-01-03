@@ -1,6 +1,6 @@
 package com.example.javabasicrefresher;
-
 import java.util.Scanner;
+
 
 public class findIfPrimeOrNot {
 
@@ -9,6 +9,15 @@ public class findIfPrimeOrNot {
             boolean isPrime = true;
             Scanner in = new Scanner(System.in);
             num = in.nextInt();
+            in.close();
+            for (int i = 2; i&lt;= num/2; i++){
+                temp = num%i;
+                if (temp == 0){
+                    isPrime = false;
+
+                }
+
+            }
         }
 
 }
