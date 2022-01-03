@@ -7,5 +7,9 @@ public class swapTwoNumbersUsingThirdVariable {
 
         int x,y, temp;
         System.out.println("Enter x and y");
+        Scanner in = new Scanner(System.in);
+        x = in.nextInt();
+        y = in.nextInt();
+
     }
 }
