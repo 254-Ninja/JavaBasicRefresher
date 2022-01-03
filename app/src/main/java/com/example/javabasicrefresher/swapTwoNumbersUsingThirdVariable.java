@@ -10,6 +10,8 @@ public class swapTwoNumbersUsingThirdVariable {
         Scanner in = new Scanner(System.in);
         x = in.nextInt();
         y = in.nextInt();
+        System.out.println("Before Swapping" + x + y);
+
 
     }
 }
