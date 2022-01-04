@@ -7,5 +7,11 @@ public class checkIfAVowelIsPresentInTheString {
         //true
         System.out.println(checkIfAVowelIsPresentInTheString("TV"));
 
+        //false
+        public static boolean checkIfAVowelIsPresentInTheString(String input){
+            return
+                    input.toLowerCase().matches(.*[aeiou].*)
+        };
+
     }
 }
