@@ -9,7 +9,7 @@ public class method_FindAverage {
         double x = in.nextDouble();
         System.out.print("Input the first number: ");
         double y = in.nextDouble();
-        System.out.print("Input the first number: ");
+        System.out.print("Input the first number : ");
         double z = in.nextDouble();
         System.out.print("The average value is " + average(x, y, z)+"\n");
     }
