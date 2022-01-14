@@ -3,6 +3,11 @@ package com.example.javabasicrefresher;
 public class dataObjectUsingCalendarClass {
 
     public static void main(String[] args){
+        int year = 2022;
+        int month = 0; //January
+        int date = 1;
+
+
 
     }
 }
