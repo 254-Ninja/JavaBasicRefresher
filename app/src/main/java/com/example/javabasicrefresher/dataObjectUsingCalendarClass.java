@@ -18,6 +18,9 @@ public class dataObjectUsingCalendarClass {
         cal.set(Calendar.MONTH, month);
         cal.set(Calendar.DATE, date);
 
+        System.out.println(cal.getTime());
+        System.out.println();
+
 
     }
 }
