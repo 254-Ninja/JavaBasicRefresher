@@ -18,6 +18,11 @@ public class binarySearch {
     }
     public static void main(String[] args){
         int[] nums = {1, 5, 6, 7, 8, 13};
+        int search_num = 7;
+        int index = binarySearch(nums, search_num);
+        if (index == -1){
+
+        }
     }
 
 }
