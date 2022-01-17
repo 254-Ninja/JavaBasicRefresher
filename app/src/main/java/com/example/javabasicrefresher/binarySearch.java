@@ -8,9 +8,13 @@ public class binarySearch {
             int guess = (lo_num + hi_num) >>> 1;
             if(nums[guess] > flag){
                 hi_num = guess - 1;
+            } else if (nums[guess] < flag){
+                lo_num = guess + 1;
+            }else {
+                return guess;
             }
         }
-
+        return guess;
     }
 
 }
