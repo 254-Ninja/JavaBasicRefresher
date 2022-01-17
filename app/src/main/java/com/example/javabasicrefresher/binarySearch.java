@@ -21,7 +21,9 @@ public class binarySearch {
         int search_num = 7;
         int index = binarySearch(nums, search_num);
         if (index == -1){
-
+            System.out.println(search_num + " is not in the array");
+        }else {
+            System.out.println(search_num + " is at index " + index);
         }
     }
 
