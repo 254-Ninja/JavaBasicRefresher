@@ -14,7 +14,7 @@ public class binarySearch {
                 return guess;
             }
         }
-        return guess;
+        return -1;
     }
 
 }
