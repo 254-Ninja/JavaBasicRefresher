@@ -16,5 +16,8 @@ public class binarySearch {
         }
         return -1;
     }
+    public static void main(String[] args){
+        int[] nums = {1, 5, 6, 7, 8, 13};
+    }
 
 }
